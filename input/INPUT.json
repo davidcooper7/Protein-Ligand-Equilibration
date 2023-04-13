@@ -1,0 +1,25 @@
+{
+	"Protein": "8efq.pdb",
+	"Box_dimensions": [
+			120,
+			120,
+			120
+	],
+	"Membrane": true,
+	"Alignment": true,
+	"OPM_structure": "5c1m.pdb",
+	"OPM_alignment_sele": "resid 326 and name CA",
+	"Protein_alignment_sele":"resid 328 and name CA",
+	"Protonate_protein": true,
+	"pH": 7.2,
+	"Docking":[
+		57,
+		60,
+		71,
+		25,
+		25,
+		25
+	]
+
+	
+}
