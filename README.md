@@ -1,1 +1,1 @@
-# Protein-Ligand-Equilibration-
+# Protein-Ligand-Equilibration
