@@ -1,0 +1,11 @@
+{
+    "fname_pdb": "pdb",
+    "fname_prmtop": "prmtop",
+    "inpcrd_fname": "inpcrd",
+    "fname_ff": [
+        "./data/protein.ff14SB.xml",
+        "./data/wat_opc3.xml",
+	"./data/lipid17.xml", 
+	"./data/lipid17.xml"
+    ]
+}

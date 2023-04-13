@@ -1,0 +1,11 @@
+{
+    "fname_pdb": "../docking/systems/system_morphine_crys.pdb",
+    "fname_prmtop": "./system_morphine_crys.prmtop",
+    "inpcrd_fname": "./system_morphine_crys.inpcrd",
+    "fname_ff": [
+        "./data/protein.ff14SB.xml",
+        "./data/wat_opc3.xml",
+	"./data/lipid17.xml", 
+	"../input/lig_xml/morphine_1.ff.xml"
+    ]
+}

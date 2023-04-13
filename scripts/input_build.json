@@ -1,0 +1,19 @@
+{
+    "fname_protein": "A_opm.pdb",
+    "protein_charge": -30,
+    "fname_system": "A_opm_system.pdb",
+    "box": [
+        120,
+        120,
+        120
+    ],
+    "membrane": {
+        "bool": true,
+        "fname_unit": "dppe_box15.pdb"
+    },
+    "solvent": {
+        "bool": true,
+        "fname_unit": "water_box15.xyz",
+        "NaCl(Molarity)": 0.15
+    }
+}

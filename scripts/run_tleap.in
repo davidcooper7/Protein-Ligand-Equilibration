@@ -1,0 +1,5 @@
+source leaprc.gaff2
+mol = loadmol2 ../input/lig_xml/LFT_1.mol2
+loadamberparams ../input/lig_xml/LFT_1.frcmod
+saveamberparm mol ../input/lig_xml/LFT_1.prmtop ../input/lig_xml/LFT_1.inpcrd
+quit

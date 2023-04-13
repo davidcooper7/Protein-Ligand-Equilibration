@@ -1,0 +1,12 @@
+{
+    "job": "min",
+    "min": {
+        "pdb": "../empty_system/proteins/8efq_empty.pdb",
+        "prmtop": "input.prmtop",
+        "save_pdb": "minimized.pdb",
+        "fc_pos": 500.0,
+        "Platform": "OpenCL",
+        "maxIteraction": 5000,
+        "tolerance": 100.0
+    }
+}

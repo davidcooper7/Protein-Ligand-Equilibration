@@ -1,0 +1,24 @@
+#!/bin/bash
+#SBATCH --job-name="ProteinRelax"
+#SBATCH --output="ProteinRelax.%j.%N.out"
+#SBATCH --partition=GPU-shared
+#SBATCH --gpus=1
+#SBATCH --mem=22G
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=dcooper6@hawk.iit.edu
+#SBATCH --account=bio230003p
+#SBATCH --no-requeue
+#SBATCH -t 36:00:00
+
+source ~/.bashrc
+module load anaconda3
+module load cuda
+
+conda activate yank_env
+
+cd $SLURM_SUBMIT_DIR
+
+echo MIN
+python ../equil_OPENMM.py -i ./input_min.json
+echo STEP5
+python ../equil_OPENMM.py -i ./MORPHINE_TEST.json

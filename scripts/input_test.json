@@ -1,0 +1,9 @@
+{
+    "fname_pdb": "../empty_system/protein/8efq.pdb",
+    "fname_prmtop": "TEST.prmtop",
+    "fname_ff": [
+        "./data/protein.ff14SB.xml",
+        "./data/wat_opc3.xml",
+	"./data/lipid17.xml"
+    ]
+}
